@@ -6,6 +6,7 @@ textareaEl.addEventListener("keyup", ()=>{
     updatecounter();
 })
 
+updatecounter()
 function updatecounter(){
     totalcounterEl.innerText = textareaEl.value.length
     remainingcounterEl.innerText = textareaEl.getAttribute("maxlength") - textareaEl.value.length
