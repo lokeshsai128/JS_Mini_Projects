@@ -25,6 +25,18 @@ body{
     box-sizing: border-box;
     border: solid 2px darkgrey;
 }
-.counter-container{
-    
+.class-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.class-container p{
+    font-size: 16px;
+    color: grey;
+}
+.total-counter{
+    color: slateblue;
+}
+.remaining-counter{
+    color: orangered;
 }
